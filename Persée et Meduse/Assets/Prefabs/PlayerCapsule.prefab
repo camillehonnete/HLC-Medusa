@@ -128,7 +128,7 @@ Transform:
   m_GameObject: {fileID: 1925873226565265906}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6074239116653777070}
@@ -166,8 +166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26e54e5a728a9234ab24fcf1460ed8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 3
-  SprintSpeed: 6
+  MoveSpeed: 4.5
+  SprintSpeed: 8
   RotationSmoothTime: 0.1
   SpeedChangeRate: 10
   LandingAudioClip: {fileID: 0}
@@ -184,8 +184,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 513
   CinemachineCameraTarget: {fileID: 6074239116653777065}
-  TopClamp: 80
-  BottomClamp: 0
+  TopClamp: 40
+  BottomClamp: -10
   CameraAngleOverride: 0
   LockCameraPosition: 0
 --- !u!114 &7292828519420468114
