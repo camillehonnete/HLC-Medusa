@@ -274,11 +274,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea223b149824175409030268e3d4c9dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  targetPosition1: {x: 0, y: 0, z: 0}
+  targetPosition2: {x: 0, y: 0, z: 0}
+  targetPosition3: {x: 0, y: 0, z: 0}
+  targetPosition4: {x: 0, y: 0, z: 0}
+  targetPosition5: {x: 0, y: 0, z: 0}
   smoothTime: 0.5
-  target: {fileID: 0}
-  currentVelocity: {x: 0, y: 0, z: 0}
-  moveDuration: 10
+  speed: 3
 --- !u!850595691 &254960613
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -1192,7 +1194,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh29828
+  m_Name: pb_Mesh64108
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1459,6 +1461,7 @@ GameObject:
   - component: {fileID: 1061659775}
   - component: {fileID: 1061659774}
   - component: {fileID: 1061659773}
+  - component: {fileID: 1061659777}
   m_Layer: 0
   m_Name: Gorgone 3
   m_TagString: Untagged
@@ -1538,13 +1541,33 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1061659772}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 622.38, y: 0.8, z: 275.16}
+  m_LocalPosition: {x: 633.41, y: 0.92, z: 280}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1061659777
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061659772}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7fe34aed3dec3cc47bf434a0405acbcb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1098313891
 GameObject:
   m_ObjectHideFlags: 0
@@ -1770,7 +1793,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh29768
+  m_Name: pb_Mesh63968
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2185,6 +2208,7 @@ GameObject:
   - component: {fileID: 1841604739}
   - component: {fileID: 1841604738}
   - component: {fileID: 1841604737}
+  - component: {fileID: 1841604741}
   m_Layer: 0
   m_Name: Gorgone 2
   m_TagString: Untagged
@@ -2264,13 +2288,33 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1841604736}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 630.29, y: 6.241, z: 270.63}
+  m_LocalPosition: {x: 629.29, y: 6.241, z: 270.63}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1841604741
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841604736}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 11c7c50822ea5b1418710bf7857d72e8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1906206079
 GameObject:
   m_ObjectHideFlags: 0
